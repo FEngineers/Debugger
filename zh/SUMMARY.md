@@ -9,5 +9,4 @@
     * [Security](Chrome/Security.md)
     * [Audits](Chrome/Audits.md)
     * [Device Mode](Chrome/Device-Mode.md)
-    * [Device Mode](Chrome/Remote-Debugging.md)
 * Charles
