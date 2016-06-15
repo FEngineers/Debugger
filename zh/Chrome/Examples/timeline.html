@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>timeline 调试</title>
+</head>
+<body>
+
+<script>
+    function consumeTime() {
+        for (var i = 0; i < 100000; i++) {
+            var elm = document.createElement("div");
+            elm.innerHTML = "第一重div<div>第二重div<div>第三重div</div></div>";
+            document.body.appendChild(elm);
+        }
+    }
+    consumeTime();
+</script>
+</body>
+</html>

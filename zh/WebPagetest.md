@@ -1,0 +1,1 @@
+https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index
