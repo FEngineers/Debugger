@@ -27,6 +27,7 @@ RAIL是一个以用户为中心的性能模型，主要的目的就是用户不�
 * drag
 
 **IDLE**
+
 需要在50毫秒里完成
 
 ** Load
@@ -73,14 +74,11 @@ ScriptsStreamerThread
 有些js代码会需要修改页面上显示的修改，会给性能带来负面影响。
 不要让不需立即执行的代码或者需要运行很长的代码影响用户的正常交互操作。
 
-
 ### Style
 
 ### Layout
 
 ### Paint and composite
-
-
 
 
 # 实践

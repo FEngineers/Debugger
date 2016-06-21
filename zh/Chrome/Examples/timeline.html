@@ -5,16 +5,31 @@
     <title>timeline 调试</title>
 </head>
 <body>
+<button onclick="consumeTime()">测试</button>
 
 <script>
-    function consumeTime() {
-        for (var i = 0; i < 100000; i++) {
+    function foo() {
+        console.log(1+2);
+    }
+
+    function bar() {
+        console.log(1*2);
+    }
+
+    function time() {
+        for (var i = 0; i < 10000; i++) {
             var elm = document.createElement("div");
             elm.innerHTML = "第一重div<div>第二重div<div>第三重div</div></div>";
             document.body.appendChild(elm);
         }
     }
-    consumeTime();
+
+    function consumeTime() {
+        foo();
+        time();
+        bar();
+    }
+//    consumeTime();
 </script>
 </body>
 </html>
